@@ -1,78 +1,38 @@
 body {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
     overflow: hidden;
     font-family: Roboto, sans-serif;
   }
-  
+
+
 .header {
-    
     display: flex;
     justify-content: space-between;
-    margin: 42px;
-    padding: 16px;
-    border: 2px solid rgb(255, 255, 255);
-
-
+    background: #1F2937;
+    
 }
 
 .logo {
+    display: flex;
     color: white;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
+    margin: 30px;
 }
-
-
-
-.title {
-    color: white;
-    font-size: 32px;
-    font-weight: 700;
-
-}
-
-
-.container {
-    background: #1F2937;
-    border: 2px solid red;
-
-}
-
 
 ul {
     display: flex;
-    margin: 0;
+    list-style: none;
+    margin: 30px;
     padding: 0;
-    gap: 16px;
-    list-style-type: none;
-    
+    gap: 16px
   }
-  
-  a {
+
+a {
     color: #ffffff;
     text-decoration: none;
   }
-
-.container2 {
-    display: flex;
-    justify-content: space-between;
-    margin: 42px;
-    border: 2px solid red;
-
-}
-
-.text {
-    color: white;
-}
-
-.test {
-    border: 2px solid rgb(187, 255, 0);
-}
-
-.title_and_button {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    gap: 20px;
-    border: 2px solid red;
-}
+  
