@@ -7,16 +7,27 @@ body {
     font-family: Roboto, sans-serif;
   }
 
+ .section1 {
+  background: #1F2937;
 
-.header {
+ }
+
+
+
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px;
-    margin-top: 0;
+    padding: 0 20%; 
     background: #1F2937;
-    
-}
+  }
+  
+  
+  .nav-links {
+      display: flex;
+     
+  }
+  
 
 .logo {
     display: flex;
@@ -42,24 +53,25 @@ a {
 .image {
     max-width: 100%;
     height: auto;
-   /*  border: 2px solid rgb(238, 255, 0); */
+/*     border: 2px solid rgb(238, 255, 0);
+ */    flex-shrink: 1;
  
 }
 .container {
-   /*  border: 2px solid rgb(255, 0, 221); */
-    display: flex;
+/*     border: 2px solid rgb(255, 0, 221);
+ */    display: flex;
     background: #1F2937;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    padding: 50px 142px;
-    gap: 20px;
-
+    padding: 0 20%;
+    gap: 16px;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 .content {
- /*    border: 2px solid rgb(0, 225, 255); */
-    display: flex;
+/*     border: 2px solid rgb(0, 225, 255);
+ */    display: flex;
     background: #1F2937;
     flex-direction: column;
     gap: 10px;
@@ -87,3 +99,43 @@ a {
     font-weight: 600;
 
 }
+
+
+/* 2nd main container with information title and cards */
+
+/* .info_title {
+    display: flex;
+    font-size: 28px;
+    font-weight: 800;
+    justify-content: center;
+    padding: 32px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+    border: 2px solid blue;
+    
+  }
+  
+  .card {
+    border: 1px solid #ff0000;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding: 16px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ff0000;
+  }
+
+
+  
+  
+   */
